@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Integration Exception Workbench</title>
+  <link href="/app.css" rel="stylesheet">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="page header-row">
+      <div><p class="brand">Integration Exception Workbench</p><p class="account" id="account">Cedar Vale Trade Supply · Local simulator</p></div>
+      <div id="session-controls"></div>
+    </div>
+    <nav aria-label="Workbench" class="page" id="navigation" hidden></nav>
+  </header>
+  <div class="page" id="service-banner" hidden></div>
+  <div class="page feedback" aria-live="polite" aria-atomic="true" id="feedback"></div>
+  <main class="page" id="main" tabindex="-1"><p>Checking session…</p></main>
+  <dialog id="confirm">
+    <form method="dialog">
+      <h2 id="dialog-title"></h2>
+      <p id="dialog-copy"></p>
+      <div class="actions"><button value="cancel" class="secondary" autofocus>Cancel</button><button id="confirm-button" value="confirm">Continue</button></div>
+    </form>
+  </dialog>
+</body>
+</html>

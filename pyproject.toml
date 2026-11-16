@@ -1,0 +1,11 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.coverage.run]
+branch = true
+source = ["iew"]
+
+[tool.mypy]
+python_version = "3.12"
+check_untyped_defs = true
